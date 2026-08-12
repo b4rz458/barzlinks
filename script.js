@@ -106,11 +106,11 @@ function createSparkle(e) {
     `width:${sz}px`,
     `height:${sz}px`,
     'border-radius:50%',
-    'background:#4D7AFF',
+    'background:#4FA8FF',
     `left:${x}px`,
     `top:${y}px`,
     'transform:translate(-50%,-50%)',
-    'box-shadow:0 0 8px #2B5CE6',
+    'box-shadow:0 0 8px #2F6FE0',
     'transition:all 0.55s cubic-bezier(0.16,1,0.3,1)',
     'opacity:1',
   ].join(';');
