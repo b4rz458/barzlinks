@@ -84,6 +84,7 @@ async function togglePlayback(mode) {
 
 function initMusic() {
   if (!musicToggle || !siteTrack) return;
+  siteTrack.volume = 0.35;
   setMusicPlaying(false);
   musicToggle.addEventListener('click', () => void togglePlayback('toggle'));
   siteTrack.addEventListener('play',  () => setMusicPlaying(true));
